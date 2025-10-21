@@ -64,12 +64,12 @@ class MPU6050_6Axis_MotionApps612 : public MPU6050_Base {
         // Setup FIFO for various output
         uint8_t dmpSendQuaternion(uint_fast16_t accuracy);
         uint8_t dmpSendGyro(uint_fast16_t elements, uint_fast16_t accuracy);
-        uint8_t dmpSendAccel(uint_fast16_t elements, uint_fast16_t accuracy);
-        uint8_t dmpSendLinearAccel(uint_fast16_t elements, uint_fast16_t accuracy);
-        uint8_t dmpSendLinearAccelInWorld(uint_fast16_t elements, uint_fast16_t accuracy);
-        uint8_t dmpSendControlData(uint_fast16_t elements, uint_fast16_t accuracy);
-        uint8_t dmpSendSensorData(uint_fast16_t elements, uint_fast16_t accuracy);
-        uint8_t dmpSendExternalSensorData(uint_fast16_t elements, uint_fast16_t accuracy);
+        //uint8_t dmpSendAccel(uint_fast16_t elements, uint_fast16_t accuracy);
+        //uint8_t dmpSendLinearAccel(uint_fast16_t elements, uint_fast16_t accuracy);
+        //uint8_t dmpSendLinearAccelInWorld(uint_fast16_t elements, uint_fast16_t accuracy);
+        //uint8_t dmpSendControlData(uint_fast16_t elements, uint_fast16_t accuracy);
+        //uint8_t dmpSendSensorData(uint_fast16_t elements, uint_fast16_t accuracy);
+        //uint8_t dmpSendExternalSensorData(uint_fast16_t elements, uint_fast16_t accuracy);
         uint8_t dmpSendGravity(uint_fast16_t elements, uint_fast16_t accuracy);
         uint8_t dmpSendPacketNumber(uint_fast16_t accuracy);
         uint8_t dmpSendQuantizedAccel(uint_fast16_t elements, uint_fast16_t accuracy);
